@@ -1,0 +1,7 @@
+click>=8.0.0
+requests>=2.25.0
+beautifulsoup4>=4.9.0
+lxml>=4.6.0
+PyGithub>=1.55.0
+pytest>=6.0.0
+pytest-mock>=3.6.0 

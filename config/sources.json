@@ -1,0 +1,22 @@
+{
+  "github": {
+    "api_base": "https://api.github.com",
+    "file_directory": "releases/github",
+    "template": "templates/github_template.md",
+    "rate_limit": {
+      "requests_per_hour": 5000,
+      "requests_per_minute": 60
+    }
+  },
+  "vscode": {
+    "base_url": "https://code.visualstudio.com/updates/",
+    "version_url_pattern": "https://code.visualstudio.com/updates/v{version}",
+    "file_directory": "releases/vscode",
+    "template": "templates/vscode_template.md",
+    "version_format": "underscore"
+  },
+  "web": {
+    "file_directory": "releases/other-sources",
+    "template": "templates/web_template.md"
+  }
+} 
